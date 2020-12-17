@@ -21,3 +21,47 @@
     }
   }
 }
+hr  {
+  width: 50px;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: rgb(49, 45, 45);
+  h4,
+  p {
+    color: white;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+.input-container {
+  position: relative;
+}
+.input-container::after {
+  position: absolute;
+  content: "Subscribe";
+  background-color: orange;
+  width: 65px;
+  height: 20px;
+  left: 89px;
+  top: 0;
+}
+.footer-p {
+  background-color: rgba(38, 122, 133, 0.315);
+  color: white;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.bottom-menu a {
+  background-color: rgb(49, 45, 45);
+  color: #fff;
+}
+footer {
+  background-color: rgb(49, 45, 45);
+}

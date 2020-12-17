@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   background-image: url(/img/nature.jpg);
   background-size: cover;
@@ -77,6 +78,56 @@ a {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+hr  {
+  width: 50px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #312d2d;
+}
+.row h4,
+.row p {
+  color: white;
+}
+.row a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container::after {
+  position: absolute;
+  content: "Subscribe";
+  background-color: orange;
+  width: 65px;
+  height: 20px;
+  left: 89px;
+  top: 0;
+}
+
+.footer-p {
+  background-color: rgba(38, 122, 133, 0.315);
+  color: white;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bottom-menu a {
+  background-color: #312d2d;
+  color: #fff;
+}
+
+footer {
+  background-color: #312d2d;
 }
 
 /*# sourceMappingURL=main.css.map */
