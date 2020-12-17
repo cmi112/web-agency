@@ -1,0 +1,23 @@
+@import "config";
+@import "header";
+@import "buttons";
+@import "typograph";
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10%;
+  form {
+    border: 1px solid;
+    background-color: #fff;
+    width: 50%;
+    height: 80vh;
+    padding: 20px;
+    input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  }
+}
